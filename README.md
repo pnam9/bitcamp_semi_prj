@@ -7,7 +7,6 @@
 <br>
 참여인원 : 5명
 # 개발환경
-<<<<<<< HEAD
 <li>
 <ul>FRONT : Jsp, html, css, javaScript, jQuery, BootStrap, ajax</ul>
 <ul>BACK : Java, jdbc, Servlet</ul>
@@ -15,13 +14,3 @@
 <ul>DATABASE : Oracle 11g</ul>
 <ul>API : Kakao Map</ul>
 </li>
-=======
-  <ul>FRONT : Jsp, html, css, javaScript, jQuery, BootStrap, ajax</ul>
-  <ul>BACK : Java, jdbc, Servlet</ul>
-  <ul>SERVER : Apache tomcat 9.0</ul>
-  <ul>DATABASE : Oracle 11g</ul>
-  <ul>API : Kakao Map</ul>
-
-
-
->>>>>>> a32f9a70d46fa49fa440ee5d590dbbfd5bbce906
