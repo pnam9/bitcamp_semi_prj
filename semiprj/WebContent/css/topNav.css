@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+@font-face{
+	font-family: 'YoonDokrip';
+	src: url('./font/YoonDokrip.ttf') format('truetype');
+}
+
+
+/* 출처 : https://codepen.io/smpnjn/pen/VwKXdmy */
+/* 
+	살색 #F1E9D8
+	갈색 #634E41
+	하늘색 #A1C5D3
+	폰트명 독립 
+*/
+
+/* 로그인 시 이름 표시되는 부분 */
+/* ------------------------------------------------------------- */
+.name{
+	background-color: rgba(255, 255, 255, 0.3);
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;	
+	
+	font-family:'Nanum Gothic', sans-serif;
+	float: right;
+	width: auto;
+	height: auto;
+	font-size: 11pt;
+	padding: 10px 10px 10px 10px;
+	margin: 0 10px 0 0;
+	color: gray;
+}
+
+/* ------------------------------------------------------------- */
+
+.nav{
+	display: flex;
+  	justify-content: center;
+}
+
+.wrap {
+    text-align: center;
+    margin: auto;
+}
+
+.menu > li {	/* 메뉴 대분류 틀 */
+    position: relative;
+    float: left;
+    background: none;
+    width: 200px;
+    text-align: center;
+}
+
+.menu > li:hover .drop {
+	z-index: 9999;
+    opacity: 1;
+    visibility: visible;
+    margin: 0;
+    display:block;
+}
+
+.menu > li > a {	/* 메뉴 대분류 글씨 */
+	text-decoration: none;
+	font-family: 'YoonDokrip', sans-serif;	
+/* 	-webkit-text-stroke-width: 0.1px;
+	-webkit-text-stroke-color: #fff;
+	text-shadow: 1px 1px #634E41; */
+    font-size: 23pt;
+    color: #634E41;
+    padding: 20px 0;
+    display: block;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu .drop {				
+    position: absolute;
+    visibility: hidden;
+    top: 56px;
+    left: 0;
+    background: white;
+    padding: 5px 20px;
+    opacity: 0;
+    transition: opacity 0.1s, margin-top 0.1s;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    width: 200px;
+    margin-top: 10px;
+	border-radius: 10px; /* 드롭다운 메뉴 테두리 둥글게 */
+}
+
+.menu .drop:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 7px 7px 7px;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    top: -7px;
+    left: 15px;
+    display: block;
+}
+
+.menu .drop li {	
+    text-align: center;
+}
+
+.menu .drop li a {	
+    border-bottom: 1px solid #efefef;
+    padding: 15px 0;
+    display: block;
+    color: #888;
+    transition: color 0.2s;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+}
+
+.menu .drop li a:hover {
+    color: black;
+}
+
+.menu .drop li:last-child a {
+    border: none;
+}
+
+

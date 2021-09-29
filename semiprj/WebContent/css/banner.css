@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.banner {
+	position: absolute;
+	top: 400px; 
+	left: 10px;
+/* 	transition: all 0.1s ease-in-out; */
+
+}
+
+/* .goTop:hover{
+	position: fixed;
+	bottom: 5%; 
+	right: 2%;
+} */

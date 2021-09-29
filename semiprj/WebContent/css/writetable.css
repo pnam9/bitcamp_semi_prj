@@ -1,0 +1,311 @@
+@charset "UTF-8";
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* 글쓰기 table css */
+table.writetable {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 1100px; /* 테이블 가로길이 */
+  border-radius: 20px; /* 모서리 둥글게 */
+  box-shadow : 2px 2px 5px #999;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 30px;
+}
+
+table.writetable th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: middle;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+table.writetable td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  font-size: 11pt;
+}
+
+table.writetable a {
+  text-decoration: none;
+  color: black;
+}
+
+table.writetable a {
+  text-decoration: none;
+  color: black;
+}
+table.writetable a:hover {
+  text-decoration: none;
+  color: #A6836D;
+  font-weight: 800;
+}
+
+/* 글목록 table css */
+table.listtable {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 1100px; /* 테이블 가로길이 */
+  border-radius: 20px; /* 모서리 둥글게 */
+  box-shadow : 2px 2px 5px #999;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 30px;
+}
+
+table.listtable th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+
+table.listtable td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 11pt;
+}
+
+table.listtable a {
+  text-decoration: none;
+  color: black;
+}
+
+table.listtable a {
+  text-decoration: none;
+  color: black;
+}
+table.listtable a:hover {
+  text-decoration: none;
+  color: #A6836D;
+  font-weight: 800;
+}
+
+/* 게시글 디테일 css */
+table.detailtable {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  max-width: 1100px; /* 테이블 가로길이 */
+  border-radius: 20px; /* 모서리 둥글게 */
+  box-shadow : 2px 2px 5px #999;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 30px;
+}
+
+table.detailtable th {
+  width: 150px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+table.detailtable td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  font-size: 11pt;
+}
+
+table.detailtable textarea {
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12pt;
+  width: 90%;
+  margin: auto;
+}
+
+.listtable textarea {
+  border-radius: 20px;
+  padding: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12pt;
+  width: 90%;
+  margin: auto;
+}
+
+/* 글쓰기 버튼 css */
+
+.writebutton {
+  width: 100px;
+  height: 40px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 800;
+  color: #fff;
+  background-color: #634E41;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 1px;
+  }
+
+.writebutton:hover {
+  background-color: #fff;
+  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+  color: #634E41;
+  font-weight: 400;
+  transform: translateY(-7px);
+}
+
+/* 댓글 쓰기 버튼 css */
+.commentbutton {
+  width: 40px;
+  height: 40px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 800;
+  color: #fff;
+  background-color: #A9A9A9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.commentbutton:hover {
+  background-color: #fff;
+  box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.4);
+  color: #808080;
+  font-weight: 800;
+  transform: translateY(-7px);
+}
+
+/* div class="write" */
+.write input{
+	padding: 15px 15px 15px 15px;
+    border: 2.5px solid #A6836D;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+  	font-size: 13px;
+}
+
+.write textarea{
+	padding: 15px 15px 15px 15px;
+    border: 2.5px solid #A6836D;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+  	font-size: 13px;
+}
+
+/* div class="writebox" */
+.writebox input[type=text]{
+	padding: 5px 5px 5px 5px;
+    border: 2.5px solid #A6836D;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+  	font-size: 13px;
+}
+.writebox input[type=tel]{
+	padding: 5px 5px 5px 5px;
+    border: 2.5px solid #A6836D;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+  	font-size: 13px;
+}
+.writebox textarea{
+	padding: 15px 15px 15px 15px;
+    border: 2.5px solid #A6836D;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+  	font-size: 13px;
+}
+.writebox select {
+    font-family: 'Nanum Gothic', sans-serif;
+	font-size: 13px;
+	outline: none;
+	border-radius: 3px;
+	padding: 5px 5px 5px 5px;
+}
+
+/* 게시판 하단 검색창 */
+.write select {
+    font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	outline: none;
+	border-radius: 3px;
+	padding: 10px 10px 10px 10px;
+}
+
+/* 네비게이션 이동 css */
+#nav {
+	position: absolute;
+	top: 300px; 
+	left: 10%;
+	width: 300px;
+/* 	transition: all 0.1s ease-in-out; */
+
+}
+
+/* 관리자, 마이페이지, 고객센터 좌측 네비 버튼용 */
+.menubutton {
+	width: 200px;
+	height: 50px;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	font-weight: 400;
+	color: #fff;
+	background-color: #A6836D;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0px 8px 15px rgba(166, 131, 109, 0.4);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	margin-bottom: 5px;
+}
+
+.menubutton:hover {
+  background-color: #fff;
+  box-shadow: 0px 15px 20px rgba(166, 131, 109, 0.4);
+  color: #A6836D;
+  font-weight: 800;
+  transform: translateY(-7px);
+}
