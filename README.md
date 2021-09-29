@@ -7,10 +7,9 @@
 <br>
 참여인원 : 5명
 # 개발환경
-
-<ul>FRONT : Jsp, html, css, javaScript, jQuery, BootStrap, ajax</ul>
-<ul>BACK : Java, jdbc, Servlet</ul>
+<ul>FRONT : Jsp, html, css, javaScript, jQuery, BootStrap, ajax, Tiles3 </ul>
+<ul>BACK : Spring5.3.6, SpringSecurity, MyBatis, Maven, Apache POI </ul>
 <ul>SERVER : Apache tomcat 9.0</ul>
 <ul>DATABASE : Oracle 11g</ul>
-<ul>API : Kakao Map</ul>
+<ul>API : KakaoMap, Summernote, Chart.js, i'mport, Smtp</ul>
 
